@@ -1,0 +1,8 @@
+.game-card {
+   background-color: dimgrey;
+   padding: 10px;
+}
+
+.game-card a {
+   font-weight: bold;
+}

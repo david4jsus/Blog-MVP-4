@@ -1,0 +1,6 @@
+# Block all crawlers for /search
+User-agent: *
+Disallow: /search
+
+# Provide sitemap
+Sitemap: https://localhost:3000/sitemap.xml

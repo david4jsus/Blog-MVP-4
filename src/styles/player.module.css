@@ -1,0 +1,179 @@
+.fake-button {
+   cursor: pointer;
+}
+
+.player-card {
+   position: fixed;
+   right: 10%;
+   width: 75px;
+   height: 75px;
+   background-color: aliceblue;
+   padding: 12.5px;
+   text-align: center;
+}
+
+.player-card-active {
+   bottom: 0;
+}
+
+.player-card-inactive {
+   bottom: -80px;
+}
+
+.player-bar {
+   margin: auto;
+   position: fixed;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 10vh;
+   background-color: white;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: small;
+}
+
+.player-bar-active {
+   bottom: 0;
+}
+
+.player-bar-inactive {
+   bottom: -12vh;
+}
+
+.player-info {
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+}
+
+.player-info div {
+   margin: 10px;
+   text-align: center;
+}
+
+.player-controls {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   width: 876px;
+}
+
+.player-controls > input {
+   width: 50px;
+}
+
+.sc-widget-wrapper {
+   margin: 0;
+   width: 78%;
+   height: 25px;
+   padding: 0;
+}
+
+.sc-widget-wrapper > iframe {
+   width: 80%;
+   height: 20px;
+   overflow: hidden;
+   border: 0;
+   transform: scale(1.25);
+   transform-origin: 0 0;
+}
+
+.player-pull-up-down {
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-right: 10px;
+}
+
+.player-pull-up-down span {
+   margin: 10px;
+}
+
+.player-library {
+   position: absolute;
+   top: 0;
+   display: flex;
+   width: 100%;
+   height: 90vh;
+   flex-direction: row;
+   background-color: aqua;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.player-library > div {
+   margin: 10px;
+   width: 50%;
+   overflow: auto;
+}
+
+.player-library-album-card {
+   margin: 10px;
+   padding: 20px;
+   width: 96%;
+   background-color: darkslategrey;
+}
+
+.player-library-album-card-title {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.player-library-album-card-title > div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.player-library-album-card-title-name {
+   font-weight: bold;
+}
+
+.player-library-album-card-game {
+   font-size: smaller;
+}
+
+.player-library-album-card-track-even {
+   background-color: #4f8f8f;
+   padding: 5px;
+}
+
+.player-library-album-card-track-odd {
+   background-color: #3f6f6f;
+   padding: 5px;
+}
+
+.player-library-album-card-track-right {
+   float: right;
+}
+
+.player-queue {
+   margin: 10px;
+   padding: 20px;
+   width: 96%;
+   background-color: darkslategrey;
+}
+
+.player-queue-track-current {
+   background-color: #9f9f9f;
+   padding: 5px;
+}
+
+.player-queue-track-even {
+   background-color: #4f8f8f;
+   padding: 5px;
+}
+
+.player-queue-track-odd {
+   background-color: #3f6f6f;
+   padding: 5px;
+}
+
+.player-queue-track-right {
+   float: right;
+}

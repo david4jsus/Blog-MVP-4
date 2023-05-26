@@ -1,0 +1,34 @@
+.article-layout {
+   display: flex;
+}
+
+.article-layout article {
+   width: 70%;
+}
+
+.article-meta {
+   font-size: small;
+}
+
+.article-layout-content {
+   margin-right: 20px;
+   text-align: justify;
+   line-height: 1.1;
+}
+
+.article-layout-content p {
+   margin-bottom: 5px;
+   text-indent: 50px;
+}
+
+.article-layout-content figure {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.comments {
+   margin: auto;
+   width: 50%;
+   color-scheme: none; /* Disqus themes might show work properly without this */
+}

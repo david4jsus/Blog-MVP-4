@@ -1,0 +1,9 @@
+.article-card {
+   max-width: 500px;
+   background-color: darkgrey;
+   padding: 10px;
+}
+
+.article-card a {
+   font-weight: bold;
+}

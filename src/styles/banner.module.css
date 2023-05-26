@@ -1,0 +1,13 @@
+.banner {
+   margin: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search > input{
+   font-size: large;
+}
