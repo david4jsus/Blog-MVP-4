@@ -17,6 +17,10 @@ I dabble into music production, as well as writing about video games. I wanted t
   - Functionality to expand the player to show the library or hide the player and reduce it to a single icon, to take less space on the screen.
 - [Incremental Site Regeneration](https://nextjs.org/docs/pages/building-your-application/data-fetching/incremental-static-regeneration) to automatically load new content from WordPress.
 
+## WordPress Plugin
+
+I made a WordPress plugin to store all content related to game, album and music track information in WordPress, to be able to load that content in this app. See the repository for that project [here](https://github.com/david4jsus/Blog-MVP-4-Wordpress-Plugin/).
+
 ## Is this project complete?
 
 Well, this is just a prototype (although a working one). You can check the deployed version of this project with the link below. This readme file will be updated when I get around to implementing the final version of this idea (this is just a hobby, and I'm not terribly great at time management... so just give me some time to produce the actual, final product).
